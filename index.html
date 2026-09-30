@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Digital Museum 2000–2010</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<canvas id="cv"></canvas><div id="xh"></div><canvas id="mm" width="200" height="180" title="Click for full map"></canvas>
+<div id="bar"><button onclick="ed()">✎ Editor</button><button onclick="mapv()">🗺 Map</button><button onclick="fd()">🔍 Search / Timeline</button><button onclick="netp()">🌐 Online</button><button onclick="cls()">👥 Class</button><button onclick="st()">⚙ Settings</button><button onclick="sv(1)">Save</button><button onclick="ld()">Load</button><span id="cnt"></span></div>
+<div id="hint">Loading…</div><div id="joy"><div id="kn"></div></div>
+<div id="m" onclick="if(event.target==this)cl()"></div><div id="tt"></div><div id="er"></div>
+<!-- three.js (needs internet). For offline use, download it and change this path to js/three.min.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+<script src="museum.config.js"></script>
+<script src="state.js"></script>
+<script src="audio.js"></script>
+<script src="ui.js"></script>
+<script src="world.js"></script>
+<script src="barangay.js"></script>
+<script src="extras.js"></script>
+<script src="nature.js"></script>
+<script src="multiplayer.js"></script>
+<script src="net.js"></script>
+
+<script src="controls.js"></script>
+<script src="main.js"></script>
+</body></html>
